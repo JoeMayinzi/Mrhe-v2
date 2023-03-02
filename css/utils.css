@@ -1,0 +1,44 @@
+@import url("./variables.css");
+
+.btn-blue {
+  background-color: var(--blue);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.pagination-active {
+  background: var(--blue) !important;
+}
+
+.projects-head_nav li a.active {
+  
+  background: var(--blue) !important;
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+
+.projets-pagination li a.active{
+  background: var(--blue) !important;
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.detail-hero {
+  margin-top: 5em !important;
+  background-color: var(--detail-hero-bgc);
+  padding-bottom: 76px !important;
+}
+
+.detail-hero_content {
+  text-align: center;
+}
+
+.detail-hero_content h2 {
+  color: var(--black);
+  font-size: 40px;
+}
+
+.detail-hero p {
+  margin-top: 32px;
+  font-size: 24px;
+}
+

@@ -1,0 +1,79 @@
+@import url("./variables.css");
+
+@font-face {
+  font-family: "CooperHewitt";
+  src: url("/assets/font/CooperHewitt-Book.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "CooperHewitt";
+  src: url("/assets/font/CooperHewitt-Medium.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "CooperHewitt";
+  src: url("/assets/font/CooperHewitt-Bold.woff") format("woff");
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0 !important;
+  font-family: "CooperHewitt" !important;
+  font-weight: 700;
+  color: var(--red);
+}
+
+a,
+p,
+span {
+  font-family: "CooperHewitt";
+  font-weight: 400;
+  color: var(--black);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0 !important;
+}
+
+ul li {
+  list-style: none !important;
+}
+
+img {
+  /*Learn how to manage img responsive*/
+  max-width: 100%;
+  height: auto;
+}
+
+header button {
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.header button:focus {
+  box-shadow: none !important;
+}
