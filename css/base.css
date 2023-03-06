@@ -54,6 +54,10 @@ a {
   text-decoration: none;
 }
 
+a:focus {
+  background-color: none !important;
+}
+
 ul {
   padding-left: 0 !important;
 }

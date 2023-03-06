@@ -86,6 +86,10 @@ nav ul .nav-link {
   margin-left: 15px;
 }
 
+nav ul .nav-link:focus {
+  display: none;
+}
+
 .mobile-menu {
   display: none;
 }
@@ -853,7 +857,7 @@ footer .news-letter p {
   margin-bottom: 106px;
 }
 
-.contact form  label {
+.contact form label {
   color: var(--black) !important;
 }
 
@@ -1040,14 +1044,13 @@ footer .news-letter p {
 }
 .ouvrage-prod_content {
   display: flex;
-  gap : 42px
+  gap: 42px;
 }
 
 .table-of-content {
   width: 391px;
   height: 411px;
   border: 1px solid var(--tb-content-header);
-  
 }
 
 .table-of-content_header {
@@ -1068,7 +1071,6 @@ footer .news-letter p {
 .table-of-content_body {
   padding-left: 34px;
   padding-bottom: 100px;
- 
 }
 
 .table-of-content_body li a {
@@ -1142,6 +1144,80 @@ footer .news-letter p {
 .detail-project_item a {
   color: #fff !important;
   font-size: 20px;
+}
+
+/*  Search result page */
+
+.search-result {
+  margin-top: 5em !important;
+  padding-bottom: 0 !important;
+}
+
+.search-result .search-result_hero .search-result_title {
+  text-align: center;
+}
+
+.search-result .search-result_hero .search-result_title h2 {
+  color: var(--black);
+  font-size: 36px;
+}
+
+.search-result .search-result_hero .search-result_title p {
+  color: var(--black);
+  font-size: 24px;
+  margin-top: 12px;
+  margin-bottom: 74px;
+}
+
+.search-result .search-result_hero span {
+  font-size: 24px;
+}
+
+.search-result_content {
+  margin-top: 36px;
+}
+
+.search-result_item {
+  /*display: flex;
+  gap: 27px;*/
+  padding: 51px 0;
+}
+
+.search-result_item-left {
+  display: flex;
+}
+
+.search-result_item-middle {
+  margin: auto;
+}
+
+.search-result_item-middle p {
+  color: var(--blue) !important;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 11px;
+}
+
+.search-result_item-middle span {
+  color: var(--gray) !important;
+  font-size: 18px;
+}
+
+.search-result_item-right h3 {
+  color: var(--black);
+  font-size: 22px;
+  margin-bottom: 26px;
+}
+
+.search-result_item-right p {
+  color: var(--gray) !important;
+  font-size: 20px;
+  margin-top: 26px;
+}
+
+.search-result .projets-pagination {
+  margin-top: 56px;
+  margin-bottom: 56px;
 }
 
 /* Responsive Design mobile first approach  */

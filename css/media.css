@@ -196,7 +196,7 @@
     font-size: 20px !important;
   }
 
-  .single_news-body{
+  .single_news-body {
     margin-top: 39px !important;
   }
 
@@ -233,7 +233,7 @@
     font-size: 16px !important;
   }
 
-  .ouvrage-prod_details  {
+  .ouvrage-prod_details {
     margin-bottom: 54px !important;
   }
 
@@ -347,6 +347,15 @@
 
   .table-of-content_header p {
     font-size: 16px !important;
+  }
+
+  .search-result_item-left {
+    display: block !important;
+  }
+
+  .search-result_item-left img {
+    width: 100% !important;
+    height: 100% !important;
   }
 }
 
