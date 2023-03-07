@@ -364,7 +364,6 @@ nav ul .nav-link:focus {
 /* Affiliate agencies styles */
 .agency-partners {
   background-color: var(--block-bgc);
-  padding-bottom: 0 !important;
 }
 
 .agency-partners_title {
