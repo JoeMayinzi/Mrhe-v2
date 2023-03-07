@@ -8,9 +8,6 @@
   section {
     margin-bottom: 0 !important;
   }
-  .hero {
-    height: 50vh !important;
-  }
 
   .hero-article_title h1 {
     font-size: 22px !important;
@@ -356,6 +353,10 @@
   .search-result_item-left img {
     width: 100% !important;
     height: 100% !important;
+  }
+
+  .hero .container {
+    position: relative !important;
   }
 }
 

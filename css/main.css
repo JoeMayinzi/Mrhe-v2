@@ -101,26 +101,38 @@ nav ul .nav-link:focus {
 /* Hero section styles */
 .hero {
   position: relative;
-  margin-top: 5em !important;
-  height: 80vh;
-  background: url("/assets/img/Rectangle\ 5.png") no-repeat center;
-  background-size: cover;
-  padding: 50px 0;
-  z-index: 1;
+  overflow: hidden;
+  padding-bottom: 0 !important;
+}
+
+.hero:hover .hero-article_title h1 {
+  text-decoration: underline;
+}
+
+.hero:hover .big-img {
+  transform: scale(1.03);
   overflow-y: hidden;
 }
 
-.hero .container {
+.big-img {
+  width: 100% !important;
+  height: auto;
+  width: 100%;
+  min-height: 18.75rem;
+  max-height: 35rem;
+  object-fit: cover;
+  transition: transform 0.2s ease-in-out;
+}
+
+.hero-article .hero-article_content {
   display: flex;
-  justify-content: start;
-  align-items: end;
-  height: 100%;
+  align-items: center;
 }
 
 .hero .hero-article {
-  display: flex;
-  width: 616px;
-  align-items: center;
+  position: absolute;
+  bottom: 100px;
+  max-width: 40rem;
   background-color: #fff;
   border-radius: 10px;
   padding-left: 29px;
