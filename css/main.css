@@ -364,6 +364,7 @@ nav ul .nav-link:focus {
 /* Affiliate agencies styles */
 .agency-partners {
   background-color: var(--block-bgc);
+  padding-bottom: 0 !important;
 }
 
 .agency-partners_title {
@@ -387,6 +388,7 @@ nav ul .nav-link:focus {
 
 .agency-partners_items {
   display: flex;
+  gap: 22.25px;
   margin-bottom: 30px;
   margin-right: 30px;
 }
@@ -397,8 +399,7 @@ nav ul .nav-link:focus {
 
 .items-img {
   margin: auto;
-  margin-left: 20px;
-  /*width: 100%;*/
+  width: 100%;
 }
 
 .items-text h3 {
