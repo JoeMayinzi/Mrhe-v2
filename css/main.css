@@ -279,10 +279,15 @@ nav ul .nav-link:focus {
   padding: 10px 0;
 }
 
-/*.admin-left_hierarchy-post.secondary {
+.admin-left_hierarchy-post.secondary {
   border-top: var(--border-top) !important;
   border-bottom: var(--border-bottom) !important;
-}*/
+  padding: 15px 0;
+}
+
+.admin-left_hierarchy-more {
+  margin: auto 0;
+}
 
 .admin-left_hierarchy-post {
   width: 50%;
@@ -294,7 +299,6 @@ nav ul .nav-link:focus {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 0;
-  margin-top: 0.3em;
 }
 
 .admin-left_hierarchy:hover .admin-left_hierarchy-post p {
@@ -310,7 +314,7 @@ nav ul .nav-link:focus {
 }
 
 .admin-left_hierarchy-more a {
-  padding: 8px 10px;
+  padding: 5px 10px;
   border: var(--border-top);
   text-align: center;
   border-radius: 100%;

@@ -70,10 +70,6 @@
     height: 25px !important;
   }
 
-  .admin-left_hierarchy-more a {
-    padding: 7px 8px !important;
-  }
-
   .admin-left_hierarchy-post {
     flex: 1 !important;
   }
@@ -357,6 +353,15 @@
 
   .hero .container {
     position: relative !important;
+  }
+
+  .admin .grid {
+    display: flex !important;
+    flex-direction: column-reverse;
+  }
+
+  .admin-left {
+    margin-top: 26px !important;
   }
 }
 
