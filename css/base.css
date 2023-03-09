@@ -67,11 +67,7 @@ ul li {
   list-style: none !important;
 }
 
-label {
-}
-
 img {
-  /*Learn how to manage img responsive*/
   max-width: 100%;
   height: auto;
 }

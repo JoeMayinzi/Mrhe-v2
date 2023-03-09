@@ -1,4 +1,12 @@
-let company = ["joe", "elieze", "rais"];
-let nom = "kayak";
-console.log(company.reverse().join("").split(""));
-console.log(nom.split("").join(""));
+const newsletterButton = document.getElementById("newsletterButton");
+const contactButton = document.getElementById("contactButton");
+
+contactButton.addEventListener("click", (Event) => {
+  Event.preventDefault();
+  console.log("prevent contact loading");
+});
+
+newsletterButton.addEventListener("click", (Event) => {
+  Event.preventDefault();
+  console.log("prevent page loading on click");
+});
