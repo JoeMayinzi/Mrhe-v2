@@ -78,6 +78,10 @@
     font-size: 18px;
   }
 
+  .secretary-right {
+    padding-left: 0 !important;
+  }
+
   .secretary-right_title h2 {
     font-size: 20px !important;
   }
@@ -352,7 +356,12 @@
   }
 
   .hero .container {
-    position: relative !important;
+    /*position: relative !important;*/
+  }
+
+  .hero-article {
+    left: 0 !important;
+    margin: 0 17px !important;
   }
 
   .admin .grid {

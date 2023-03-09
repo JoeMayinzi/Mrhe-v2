@@ -131,7 +131,8 @@ nav ul .nav-link:focus {
 
 .hero .hero-article {
   position: absolute;
-  bottom: 100px;
+  left: 1.875rem;
+  bottom: 2.625rem;
   max-width: 40rem;
   background-color: #fff;
   border-radius: 10px;
