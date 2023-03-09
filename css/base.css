@@ -44,7 +44,8 @@ h6 {
 
 a,
 p,
-span {
+span,
+label {
   font-family: "CooperHewitt";
   font-weight: 400;
   color: var(--black);
@@ -64,6 +65,9 @@ ul {
 
 ul li {
   list-style: none !important;
+}
+
+label {
 }
 
 img {
