@@ -355,12 +355,9 @@
     height: 100% !important;
   }
 
-  .hero .container {
-    /*position: relative !important;*/
-  }
-
   .hero-article {
     left: 0 !important;
+    bottom: 1.875rem !important;
     margin: 0 17px !important;
   }
 
