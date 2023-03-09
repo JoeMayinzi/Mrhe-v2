@@ -245,6 +245,36 @@
   .detail-project_item {
     margin-bottom: 35px !important;
   }
+
+  .search-result_title h2 {
+    font-size: 24px !important;
+  }
+
+  .search-result_title p {
+    font-size: 16px !important;
+    margin-bottom: 27px !important;
+  }
+
+  .search-result .search-result_hero span {
+    font-size: 18px !important;
+  }
+
+  .search-result_content {
+    margin-top: 14px !important;
+  }
+
+  .search-result_item {
+    padding: 32px 0 !important;
+  }
+
+  .search-result_item-right h3 {
+    font-size: 18px !important;
+    margin-top: 11px !important;
+  }
+
+  .search-result_item-right p {
+    margin-top: 11px !important;
+  }
 }
 
 @media (min-width: 300px) and (max-width: 992px) {
@@ -368,6 +398,10 @@
 
   .admin-left {
     margin-top: 26px !important;
+  }
+
+  .search-result_item-img {
+    margin-bottom: 16px !important;
   }
 }
 
