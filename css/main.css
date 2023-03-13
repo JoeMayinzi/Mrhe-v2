@@ -137,9 +137,12 @@ nav ul .nav-link:focus {
   align-items: center;
 }
 
+.hero .container {
+  position: relative;
+}
+
 .hero .hero-article {
   position: absolute;
-  left: 1.875rem;
   bottom: 2.625rem;
   max-width: 40rem;
   background-color: #fff;
@@ -505,15 +508,6 @@ footer .news-letter-form input {
   height: 18px;
   font-size: 18px;
   border-radius: 3px !important;
-}
-
-footer .news-letter-form input:focus {
-  border: none;
-  box-shadow: none !important;
-  border-top-width: 0 !important;
-  border-bottom-width: 0 !important;
-  border-left-width: 0 !important;
-  border-right-width: 0 !important;
 }
 
 footer .news-letter-form button {
