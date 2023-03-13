@@ -28,7 +28,7 @@ h5,
 h6 {
   margin-bottom: 0 !important;
   font-family: "CooperHewitt" !important;
-  font-weight: 700;
+  font-weight: 600 !important;
 }
 
 a,
@@ -38,6 +38,10 @@ li {
   font-family: "CooperHewitt";
   font-weight: 400;
   color: var(--black) !important;
+}
+
+p {
+  font-size: 20px !important;
 }
 
 a {
@@ -75,6 +79,10 @@ header {
 header .website-logo {
   width: 100%;
   height: 60px;
+}
+
+.header-border-bottom {
+  border-bottom: 1px solid rgba(217, 217, 217, 1);
 }
 
 nav ul .nav-link {
@@ -275,6 +283,12 @@ nav ul .nav-link:focus {
   background-color: var(--black);
 }
 
+.admin-subtititle {
+  margin-top: 38px;
+  color: #515151 !important;
+  font-size: 20px;
+}
+
 .admin-left_hierarchy {
   display: flex;
   padding: 10px 0;
@@ -291,8 +305,8 @@ nav ul .nav-link:focus {
 }
 
 .admin-left_hierarchy-post {
-  width: 50%;
-  margin-right: 2em;
+  width: 54%;
+  margin-right: 16px;
 }
 
 .admin-left_hierarchy-post p {
@@ -333,8 +347,10 @@ nav ul .nav-link:focus {
 }
 
 .secretary-right {
-  padding-left: 30px;
-  /*padding-right: 30px;*/
+  padding-top: 49px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 54px;
 }
 
 .secretary-right_title {
@@ -342,7 +358,7 @@ nav ul .nav-link:focus {
 }
 
 .secretary-right p {
-  margin-bottom: 5em;
+  margin-bottom: 42px;
 }
 
 .secretary-right_title::before {
@@ -356,9 +372,9 @@ nav ul .nav-link:focus {
 .secretary-right .secretary-right_title h2 {
   color: var(--black);
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 39px;
   padding-left: 20px;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
 }
 
 .secretary-right a {
@@ -660,6 +676,7 @@ footer .news-letter p {
 
 .ministry p {
   color: rgba(81, 81, 81, 1) !important;
+  margin-top: 23px;
   margin-bottom: 92px;
 }
 
@@ -674,7 +691,7 @@ footer .news-letter p {
 .ministry .ministry_member p {
   font-size: 20px;
   color: var(--black) !important;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 6px;
 }
 
@@ -720,6 +737,7 @@ footer .news-letter p {
 }
 
 .biography-content_text {
+  margin-top: 69px;
   margin-bottom: 46px !important;
 }
 
@@ -750,7 +768,7 @@ footer .news-letter p {
 }
 .projects-head {
   text-align: center;
-  margin-bottom: 90px;
+  margin-bottom: 80px;
 }
 
 .projects-head h2 {
@@ -818,7 +836,7 @@ footer .news-letter p {
 }
 
 .projets-pagination li a {
-  margin-right: 20px;
+  margin-right: 5px;
   padding: 8px 16px 8px 16px;
   border-radius: 5px;
   color: rgba(133, 133, 133, 1) !important;
@@ -1104,13 +1122,21 @@ footer .news-letter p {
 
 .ouvrage-prod_details h5 {
   color: var(--black);
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .ouvrage-prod_details p {
   margin-top: 20px;
   font-size: 22px;
   color: var(--tb-details-color) !important;
+}
+
+progress::-moz-progress-bar {
+  background: var(--blue) !important;
+}
+
+progress::-webkit-progress-value {
+  background: var(--blue) !important;
 }
 
 /* DETAIL PROJECT */
