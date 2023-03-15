@@ -278,14 +278,6 @@
 }
 
 @media (min-width: 300px) and (max-width: 992px) {
-  nav .nav-link {
-    display: none;
-  }
-
-  .mobile-menu {
-    display: block !important;
-  }
-
   .search {
     display: none;
   }
@@ -433,6 +425,20 @@
 
   footer {
     text-align: center !important;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 1199px) {
+  nav .nav-link {
+    display: none;
+  }
+
+  nav .search {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block !important;
   }
 }
 

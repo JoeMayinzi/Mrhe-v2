@@ -13,7 +13,7 @@
   --border-bottom: 1px solid var(--gray2);
   --block-bgc: rgba(2, 140, 218, 0.03);
   --gray3: rgba(122, 122, 122, 1);
-  --detail-hero-bgc : #F8F8F8;
-  --tb-content-header : rgba(223, 223, 223, 1);
-  --tb-details-color : rgba(133, 133, 133, 1);
+  --detail-hero-bgc: #f8f8f8;
+  --tb-content-header: rgba(223, 223, 223, 1);
+  --tb-details-color: rgba(133, 133, 133, 1);
 }

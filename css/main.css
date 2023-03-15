@@ -246,7 +246,11 @@ nav ul .nav-link:focus {
 
 .news-body_right .news-body_right-items .news-body_right-items-img img {
   width: 171px;
-  /*height: 115px;*/
+  transition: transform 0.2s ease-in-out;
+}
+
+.news-body_right .news-body_right-items .news-body_right-items-img img:hover {
+  transform: scale(1.03);
 }
 
 .news-body_right .news-body_right-items {
@@ -895,7 +899,7 @@ footer .news-letter p {
   width: 100%;
   height: 18px;
   font-size: 18px;
-  border-radius: 3px !important;
+  border-radius: 10px !important;
 }
 
 .contact form textarea {
@@ -967,6 +971,14 @@ footer .news-letter p {
   margin-bottom: 63px;
 }
 
+.news-body_left img {
+  transition: transform 0.2s ease-in-out;
+}
+
+.news-body_left img:hover {
+  transform: scale(1.03);
+}
+
 .pagination-active a {
   color: #fff;
 }
@@ -1024,7 +1036,7 @@ footer .news-letter p {
 }
 
 .single_news .social-links li a {
-  padding: 5px 8px !important;
+  /**padding: 5px 8px !important;*/
   background-color: var(--blue) !important;
 }
 
