@@ -5,6 +5,112 @@
 
 body {
   height: 100vh;
+  overflow-y: hidden;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 100%; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: #fff; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+/*.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}*/
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 86px;
+  padding: 1rem 0;
+}
+
+.sidebar-body {
+  padding: 1rem 0;
+}
+
+.sidebar-body ul {
+  margin-left: 15px;
+}
+
+.sidebar-body ul li a {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px 0;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(10, 36, 88, 0.25);
+}
+
+.sidebar-body ul li a:hover {
+  color: var(--blue) !important;
+  border-bottom-color: var(--blue);
+}
+
+.search-btn {
+  position: relative;
+}
+
+.search-btn form button {
+  position: absolute;
+  width: 50px;
+  height: 73%;
+  top: 0;
+  right: 0;
+  border: none;
+  padding: 5px;
+  background-color: #1c4294 !important;
+  color: #fff;
+  border-radius: 0 2px 0 0;
+  padding: 13px;
+}
+
+.search-btn form input {
+  width: 100%;
+  margin-top: 0;
+  border-radius: 0.25rem 0 0;
+  max-height: none;
+  padding: 0.7rem 1rem;
+  background-color: #f0f0f0;
+  border-top: none;
+  border-left: none;
+  border-bottom: 2px solid #1c4294;
+}
+
+.search-btn form input::placeholder {
+  font-style: italic;
+}
+
+.search-btn form input:focus {
+  border: none;
+  outline: none !important;
 }
 
 /* Base configurations for all pages elements */
@@ -336,10 +442,13 @@ nav ul .nav-link:focus {
 }
 
 .admin-left_hierarchy-more a {
-  padding: 5px 10px;
+  /*padding: 5px 10px;*/
+  display: block;
+  width: 34px !important;
+  height: 34px !important;
+  border-radius: 100%;
   border: var(--border-top);
   text-align: center;
-  border-radius: 100%;
   transition: 0.3s;
 }
 .admin-right img {
