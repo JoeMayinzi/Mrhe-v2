@@ -68,6 +68,10 @@ body {
   border-bottom-color: var(--blue);
 }
 
+.sidebar-body .social-media {
+  margin-top: 48px;
+}
+
 .sidebar-body .social-media ul {
   display: flex;
   margin-left: 15px;
