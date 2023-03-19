@@ -12,9 +12,11 @@ newsletterButton.addEventListener("click", (Event) => {
 function openNav() {
   document.getElementById("mySidenav").style.width = 100 + "%";
   console.log(document.body);
+  document.body.style.overflowY = "hidden";
 }
 
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+  document.body.style.overflowY = "visible";
 }
