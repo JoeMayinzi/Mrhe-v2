@@ -7,6 +7,14 @@
   .sidenav {
     width: 100% !important;
   }
+
+  .detail-hero_content h2 {
+    font-size: 20px !important;
+  }
+
+  .detail-hero_content p {
+    font-size: 16px !important;
+  }
 }
 
 @media (min-width: 300px) and (max-width: 768px) {
@@ -101,10 +109,6 @@
 
   .agency-partners_title::before {
     height: 25px !important;
-  }
-
-  .agency-partners_items {
-    display: block !important;
   }
 
   .items-img {
@@ -220,11 +224,7 @@
   }
 
   .detail-hero_content h2 {
-    font-size: 20px !important;
-  }
-
-  .detail-hero_content p {
-    font-size: 16px !important;
+    font-size: 31px;
   }
 
   .ouvrage-prod_details h5 {
@@ -402,6 +402,30 @@
 
   .search-result_item-img {
     margin-bottom: 16px !important;
+  }
+
+  .secretary-left img {
+    border-top-right-radius: 5px !important;
+    border-bottom-left-radius: 0 !important;
+  }
+
+  .secretary-right {
+    padding-left: 14px !important;
+  }
+
+  .agency-partners_items {
+    display: block !important;
+    margin-bottom: 74px !important;
+    margin-right: 0 !important;
+  }
+
+  .agency-partners_items .items-text h3 {
+    margin-top: 17px;
+    margin-bottom: 18px !important;
+  }
+
+  .mb-53 {
+    margin-bottom: 53px !important;
   }
 }
 

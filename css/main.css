@@ -9,6 +9,7 @@ body {
 
 /* The side navigation menu */
 .sidenav {
+  display: none;
   height: 100%;
   width: 50%;
   position: fixed;
@@ -466,6 +467,14 @@ nav ul .nav-link:focus {
 
 .secretary .grid {
   background: var(--block-bgc);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.secretary-left img {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 100%;
 }
 
 .secretary-right {
@@ -507,6 +516,7 @@ nav ul .nav-link:focus {
 /* Affiliate agencies styles */
 .agency-partners {
   background-color: var(--block-bgc);
+  padding-bottom: 0 !important;
 }
 
 .agency-partners_title {
@@ -802,14 +812,14 @@ footer .news-letter p {
 }
 
 .ministry .ministry_member p {
-  font-size: 20px;
+  font-size: 16px !important;
   color: var(--black) !important;
   font-weight: 600;
   margin-bottom: 6px;
 }
 
 .ministry .ministry_member span {
-  font-size: 20px;
+  font-size: 14px;
   color: rgba(133, 133, 133, 1) !important;
 }
 
@@ -847,6 +857,9 @@ footer .news-letter p {
 
 .biography .social-links li a {
   background: var(--blue) !important;
+  display: block;
+  width: 55px !important;
+  height: 55px !important;
 }
 
 .biography-content_text {
@@ -864,6 +877,8 @@ footer .news-letter p {
 .national-heritage_item {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding-bottom: 30px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .national-heritage_item img {
   margin-bottom: 41px;
@@ -1012,6 +1027,7 @@ footer .news-letter p {
   border: 1px solid rgba(239, 236, 236, 1) !important;
   padding: 22px !important;
   width: 100%;
+  height: 70px;
   height: 18px;
   font-size: 18px;
   border-radius: 10px !important;
@@ -1147,12 +1163,14 @@ footer .news-letter p {
 }
 
 .single_news .social-links li {
-  height: 20px !important;
 }
 
 .single_news .social-links li a {
   /**padding: 5px 8px !important;*/
   background-color: var(--blue) !important;
+  display: block;
+  width: 55px !important;
+  height: 55px !important;
 }
 
 .single_news .single-news-footer {
@@ -1250,6 +1268,10 @@ footer .news-letter p {
   margin-top: 20px;
   font-size: 22px;
   color: var(--tb-details-color) !important;
+}
+
+.table-of-content_body ol li a {
+  font-weight: 500;
 }
 
 progress::-moz-progress-bar {
