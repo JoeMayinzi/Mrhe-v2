@@ -3,6 +3,11 @@
 /*
   Mobile
 */
+@media (min-width: 577px) and (max-width: 810px) {
+  .admin-left_hierarchy-more a svg {
+    margin-top: 5px;
+  }
+}
 @media (min-width: 300px) and (max-width: 576px) {
   .sidenav {
     width: 100% !important;
@@ -14,6 +19,10 @@
 
   .detail-hero_content p {
     font-size: 16px !important;
+  }
+
+  .admin-left_hierarchy-more a svg {
+    margin-top: 7px;
   }
 }
 
@@ -279,10 +288,6 @@
 
   .search-result_item-right p {
     margin-top: 11px !important;
-  }
-
-  .admin-left_hierarchy-more a svg {
-    margin-top: 7px;
   }
 }
 

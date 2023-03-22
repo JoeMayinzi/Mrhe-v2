@@ -1075,6 +1075,10 @@ footer .news-letter p {
   margin-bottom: 9px !important;
 }
 
+.page-not-found .page-not-found_left.fs-fix h3 {
+  font-size: 38px !important;
+}
+
 .page-not-found .page-not-found_left p {
   font-size: 20px;
   color: var(--gray3) !important;
@@ -1179,7 +1183,7 @@ footer .news-letter p {
 }
 
 .single_news .single-news-footer .share-text {
-  font-size: 24px;
+  font-size: 20px !important;
   text-align: center;
   margin-bottom: 13px;
   padding-right: 20px;
@@ -1209,6 +1213,10 @@ footer .news-letter p {
 .related-post-text span {
   font-size: 18px;
   color: var(--gray3) !important;
+}
+
+.related-post-img {
+  width: 100%;
 }
 
 .related-post-img img {
