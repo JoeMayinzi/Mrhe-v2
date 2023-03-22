@@ -9,9 +9,8 @@ body {
 
 /* The side navigation menu */
 .sidenav {
-  display: none;
   height: 100%;
-  width: 50%;
+  width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
