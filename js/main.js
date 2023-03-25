@@ -3,6 +3,7 @@ const contactButton = document.getElementById("contactButton");
 
 contactButton.addEventListener("click", (Event) => {
   Event.preventDefault();
+  console.log("contact btn doesn't load ");
 });
 
 newsletterButton.addEventListener("click", (Event) => {

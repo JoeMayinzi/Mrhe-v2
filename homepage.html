@@ -23,6 +23,7 @@
 </head>
 
 <body>
+
   <header>
     <div class="container">
       <nav>
@@ -43,7 +44,10 @@
           <li><a href="/src/projects_page/projects_page.html" class="nav-link">projets</a></li>
           <li><a href="#" class="nav-link">contact</a></li>
           <li class="search">
-            <button>
+            <button
+              data-target="modal-example"
+              onClick="toggleModal(event)"
+            >
               <svg width="25px" height="25px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none"
                 stroke="#000000" stroke-width="4">
                 <circle cx="28" cy="28" r="20" />
@@ -587,7 +591,20 @@
       </p>
     </div>
   </footer>
+  <dialog id="modal-example">
+  <article>
+    <input type="text" id="lastname" name="lastname" placeholder="Rechercher un contenu" required>
+    <span>
+      <svg width="25px" height="25px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none"
+                stroke="#000000" stroke-width="4">
+                <circle cx="28" cy="28" r="20" />
+                <line x1="56" y1="56" x2="42.14" y2="42.14" />
+              </svg>
+    </span>
+  </article>
+</dialog>
   <script src="js/main.js"></script>
+  <script src="/assets/pico-master/docs/js/modal.min.js"></script>
 </body>
 
 </html>
