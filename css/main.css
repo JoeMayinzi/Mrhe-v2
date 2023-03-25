@@ -1423,11 +1423,12 @@ dialog article input {
   border-radius: 4px !important;
   /* padding: 8px !important;*/
   height: 48px !important;
+
+  border-color: #d5e3ec !important;
 }
 
 dialog article input:focus {
   outline: none !important;
-  border-color: #1c4294 !important;
   outline: none !important;
   box-shadow: none !important;
 }

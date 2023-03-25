@@ -20,5 +20,5 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   console.log(document.getElementById("mySidenav"));
-  console.log("close nav");
+  document.body.style.overflowY = "visible";
 }
