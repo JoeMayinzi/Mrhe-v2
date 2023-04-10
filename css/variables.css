@@ -11,6 +11,7 @@
   --white: rgba(255, 255, 255, 1);
   --border-top: 1px solid var(--gray2);
   --border-bottom: 1px solid var(--gray2);
+  --border-black: 1px solid var(--black);
   --block-bgc: rgba(2, 140, 218, 0.03);
   --gray3: rgba(122, 122, 122, 1);
   --detail-hero-bgc: #f8f8f8;

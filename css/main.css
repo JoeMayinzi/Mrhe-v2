@@ -452,7 +452,7 @@ nav ul .nav-link:focus {
   width: 34px !important;
   height: 34px !important;
   border-radius: 100%;
-  border: var(--border-top);
+  border: var(--border-black);
   text-align: center;
   transition: 0.3s;
 }
