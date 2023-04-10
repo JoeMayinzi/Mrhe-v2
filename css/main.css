@@ -666,6 +666,10 @@ footer .news-letter p {
   padding: 10px;
 }
 
+.social-links li a.facebook {
+  padding: 10px 9px !important;
+}
+
 .copyright {
   text-align: center;
 }
