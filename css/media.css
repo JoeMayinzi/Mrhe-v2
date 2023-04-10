@@ -9,9 +9,23 @@
   }
 }
 @media (min-width: 300px) and (max-width: 576px) {
+  p {
+    font-size: 18px !important;
+  }
+  .p-50 {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  .hero .hero-article {
+    margin: 0 17px !important;
+  }
   .detail-hero_content h2 {
     font-size: 20px !important;
   }
+
+  /*.news {
+    padding-bottom: 50px !important;
+  }*/
 
   .detail-hero_content p {
     font-size: 16px !important;
@@ -122,10 +136,6 @@
 
   .agency-partners_items .items-text p {
     margin: 16px 0 !important;
-  }
-
-  footer {
-    text-align: center !important;
   }
 
   .quick-links {

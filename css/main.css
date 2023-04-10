@@ -155,7 +155,7 @@ li {
 }
 
 p {
-  font-size: 20px !important;
+  font-size: 20px;
 }
 
 a {
@@ -405,7 +405,6 @@ nav ul .nav-link:focus {
 .admin-subtititle {
   margin-top: 38px;
   color: #515151 !important;
-  font-size: 20px;
 }
 
 .admin-left_hierarchy {
@@ -622,6 +621,10 @@ footer li {
 
 .footer-adress ul {
   margin-top: 22px;
+}
+
+.footer-adress li span {
+  margin-left: 5px;
 }
 
 .quick-links {
