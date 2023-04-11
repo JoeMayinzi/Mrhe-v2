@@ -41,6 +41,23 @@
   .ministry p {
     margin-bottom: 47px !important;
   }
+
+  .biography-content_img {
+    margin-bottom: 39px !important;
+  }
+
+  .biography .biography-content_title h3 {
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .biography .social-links {
+    margin-top: 14px !important;
+  }
+
+  .biography-content_text {
+    margin-top: 11px !important;
+  }
 }
 
 @media (min-width: 300px) and (max-width: 768px) {
