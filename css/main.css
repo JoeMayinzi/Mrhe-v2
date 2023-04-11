@@ -849,7 +849,7 @@ footer .news-letter p {
 
 .biography .biography-content_title span {
   color: var(--blue) !important;
-  font-size: 24px !important;
+  font-size: 24px;
   font-weight: 500;
 }
 

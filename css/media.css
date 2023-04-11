@@ -58,6 +58,18 @@
   .biography-content_text {
     margin-top: 11px !important;
   }
+
+  .biography .biography-content_title span {
+    font-size: 16px !important;
+  }
+  .related-post-text h4 {
+    font-size: 16px !important;
+  }
+
+  .search-result_item-middle {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
 }
 
 @media (min-width: 300px) and (max-width: 768px) {
