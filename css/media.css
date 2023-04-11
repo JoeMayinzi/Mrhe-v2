@@ -9,6 +9,9 @@
   }
 }
 @media (min-width: 300px) and (max-width: 576px) {
+  .ministry .ministry-header h3 {
+    font-size: 35px !important;
+  }
   p {
     font-size: 18px !important;
   }
@@ -464,10 +467,6 @@
   .quick-links {
     border-left: none !important;
     padding-left: 0 !important;
-  }
-
-  footer {
-    text-align: center !important;
   }
 }
 
