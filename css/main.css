@@ -1208,7 +1208,7 @@ footer .news-letter p {
 }
 
 .related-post-text span {
-  font-size: 18px;
+  /*font-size: 18px;*/
   color: var(--gray3) !important;
 }
 
