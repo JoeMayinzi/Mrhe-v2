@@ -37,6 +37,10 @@
   .admin-left_hierarchy-more a svg {
     margin-top: 7px;
   }
+
+  .ministry p {
+    margin-bottom: 47px !important;
+  }
 }
 
 @media (min-width: 300px) and (max-width: 768px) {
@@ -147,7 +151,7 @@
   }
   .other-hero .other-hero_content h2 {
     font-size: 33px !important;
-    top: 107px !important;
+    top: 121px !important;
     left: 6px !important;
   }
 
