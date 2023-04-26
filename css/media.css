@@ -601,4 +601,8 @@
   .copyright {
     font-size: 16px !important;
   }
+
+  .admin-left_hierarchy-post p {
+    font-size: 15px !important;
+  }
 }
