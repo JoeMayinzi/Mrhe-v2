@@ -3,14 +3,7 @@
 /*
   Mobile
 */
-@media (min-width: 100px) and (max-width: 355px) {
-  .sidebar-header img {
-    width: 150px;
-  }
-  .sidebar-body .nav li a {
-    font-size: 15px !important;
-  }
-}
+
 @media (min-width: 577px) and (max-width: 810px) {
   .admin-left_hierarchy-more a svg {
     margin-top: 5px;
@@ -563,5 +556,43 @@
 
   .related-post-img {
     width: 100% !important;
+  }
+}
+
+/* Fix header on very small screens */
+
+@media (min-width: 100px) and (max-width: 299px) {
+  .sidebar-header img {
+    width: 150px;
+  }
+  .sidebar-body .nav li a {
+    font-size: 15px !important;
+  }
+
+  .hero-article_title h1 {
+    font-size: 10px !important;
+  }
+
+  .flag-bar {
+    top: -20px !important;
+  }
+
+  .secretary-right .secretary-right_title h2,
+  .admin-left h2 {
+    font-size: 16px !important;
+  }
+
+  .secretary-right {
+    padding-left: 0 !important;
+  }
+
+  .agency-partners_items .items-text h3 {
+    font-size: 16px !important;
+  }
+
+  .news-body_left h3,
+  .news-body_right .news-body_right-items .news-body_right-items-text h3,
+  .agency-partners_title h2 {
+    font-size: 16px !important;
   }
 }
