@@ -574,7 +574,7 @@
   }
 
   .flag-bar {
-    top: -20px !important;
+    top: -36px !important;
   }
 
   .secretary-right .secretary-right_title h2,
@@ -593,6 +593,12 @@
   .news-body_left h3,
   .news-body_right .news-body_right-items .news-body_right-items-text h3,
   .agency-partners_title h2 {
+    font-size: 16px !important;
+  }
+
+  .footer-adress li span,
+  footer h3,
+  .copyright {
     font-size: 16px !important;
   }
 }
