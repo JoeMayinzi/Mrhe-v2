@@ -661,9 +661,12 @@ footer .news-letter p {
 .social-links li a {
   background-color: rgba(255, 255, 255, 1) !important;
   margin-right: 20px;
+  width: 45px;
+  height: 45px;
   border-radius: 100%;
-  text-align: center;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .copyright {
@@ -1054,7 +1057,7 @@ footer .news-letter p {
 .contact form button {
   border: none;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 19px;
   width: 256px;
   font-weight: 500;
 }

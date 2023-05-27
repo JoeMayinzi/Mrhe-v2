@@ -1,13 +1,17 @@
 const newsletterButton = document.getElementById("newsletterButton");
 const contactButton = document.getElementById("contactButton");
+const newsletterForm = document.querySelectorAll(".news-letter-form");
+
+newsletterButton.addEventListener("click", (e) => {
+  e.preventDefault();
+  console.log(
+    "Kami button newsletter ezo recharger te tia nga kimia naza piaka euh"
+  );
+});
 
 contactButton.addEventListener("click", (Event) => {
   Event.preventDefault();
   console.log("contact btn doesn't load ");
-});
-
-newsletterButton.addEventListener("click", (Event) => {
-  Event.preventDefault();
 });
 
 function openNav() {
