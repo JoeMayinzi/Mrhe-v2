@@ -516,6 +516,12 @@ nav ul .nav-link:focus {
   padding-bottom: 0 !important;
 }
 
+.agency-partners_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 105px;
+}
+
 .agency-partners_title {
   margin-bottom: 50px;
 }
@@ -720,6 +726,13 @@ footer .news-letter p {
   background-color: var(--block-bgc);
   padding-bottom: 0 !important;
 }
+
+.public-politics_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 21px;
+}
+
 .public-politics-item {
   position: relative;
   background-color: rgba(255, 255, 255, 1);
@@ -862,9 +875,11 @@ footer .news-letter p {
 
 .biography .social-links li a {
   background: var(--blue) !important;
-  display: block;
   width: 55px !important;
   height: 55px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .biography-content_text {
@@ -1102,6 +1117,13 @@ footer .news-letter p {
 
 /* News Page */
 
+.news-body_content {
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
 .news.news-page {
   padding-bottom: 0 !important;
 }
@@ -1234,7 +1256,7 @@ footer .news-letter p {
 
 .table-of-content {
   width: 391px;
-  height: 411px;
+  height: fit-content;
   border: 1px solid var(--tb-content-header);
 }
 
@@ -1417,13 +1439,13 @@ progress::-webkit-progress-value {
   margin-bottom: 56px;
 }
 
-dialog article {
-  position: absolute;
+dialog form article {
+  position: relative;
   width: 600px !important;
   padding: 8px !important;
 }
 
-dialog article input {
+dialog form article input {
   width: 100% !important;
   margin-bottom: 0 !important;
   border-radius: 4px !important;
@@ -1433,13 +1455,13 @@ dialog article input {
   border-color: #d5e3ec !important;
 }
 
-dialog article input:focus {
+dialog form article input:focus {
   outline: none !important;
   outline: none !important;
   box-shadow: none !important;
 }
 
-dialog article span {
+dialog form article span {
   position: absolute;
   top: 15px;
   right: 25px;

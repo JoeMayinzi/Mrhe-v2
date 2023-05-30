@@ -331,6 +331,19 @@
   .search-result_item-right p {
     margin-top: 11px !important;
   }
+
+  .agency-partners_content {
+    display: block !important;
+    padding-bottom: 50px !important;
+  }
+
+  .news-body_content {
+    display: block !important;
+  }
+
+  .public-politics_content {
+    display: block !important;
+  }
 }
 
 @media (min-width: 100px) and (max-width: 992px) {
