@@ -228,6 +228,12 @@ nav ul .nav-link:focus {
   gap: 21px;
 }
 
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
 /* Hero section styles */
 .hero {
   position: relative;
@@ -1183,7 +1189,9 @@ footer .news-letter p {
 }
 
 .single_news-body img {
+  width: 100% !important;
   margin-bottom: 43px;
+  border-radius: 10px;
   border-radius: 10px;
 }
 
@@ -1203,6 +1211,9 @@ footer .news-letter p {
   display: block;
   width: 55px !important;
   height: 55px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .single_news .single-news-footer {

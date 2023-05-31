@@ -427,9 +427,20 @@
     display: block !important;
   }
 
+  .grid-3 {
+    display: block !important;
+  }
+
+  .related-posts_content {
+    display: block !important;
+  }
+
+  .related-posts_content img {
+    width: 100% !important;
+  }
+
   .table-of-content {
     width: 100% !important;
-    height: 312px !important;
     margin-bottom: 51px;
   }
 
