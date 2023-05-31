@@ -423,6 +423,10 @@
     display: block !important;
   }
 
+  .grid-2 {
+    display: block !important;
+  }
+
   .table-of-content {
     width: 100% !important;
     height: 312px !important;

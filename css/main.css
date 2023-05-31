@@ -222,6 +222,12 @@ nav ul .nav-link:focus {
   margin-right: 15px;
 }
 
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 21px;
+}
+
 /* Hero section styles */
 .hero {
   position: relative;
