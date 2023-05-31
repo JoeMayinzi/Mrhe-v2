@@ -20,6 +20,11 @@ body {
   transition: 0.5s;
 }
 
+.activeLink {
+  color: #1c4294 !important;
+  font-weight: 700 !important;
+}
+
 /* The navigation menu links */
 .sidenav a {
   text-decoration: none;
@@ -208,6 +213,12 @@ nav ul .nav-link {
   padding-left: 0;
   padding-right: 0;
   margin-left: 15px;
+  transition: 0.2s;
+}
+
+nav ul .nav-link:hover {
+  color: #1c4294 !important;
+  font-weight: 700;
 }
 
 nav ul .nav-link:focus {

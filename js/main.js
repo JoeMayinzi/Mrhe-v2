@@ -1,12 +1,18 @@
 const newsletterButton = document.getElementById("newsletterButton");
 const contactButton = document.getElementById("contactButton");
 const newsletterForm = document.querySelectorAll(".news-letter-form");
+const navLink = document.querySelectorAll(".nav-link");
+const path = window.location.href;
+
+console.log(path);
+navLink.forEach((currentLink) => {
+  if (currentLink.href === path) {
+    currentLink.classList.add("activeLink");
+  }
+});
 
 newsletterButton.addEventListener("click", (e) => {
   e.preventDefault();
-  console.log(
-    "Kami button newsletter ezo recharger te tia nga kimia naza piaka euh"
-  );
 });
 
 contactButton.addEventListener("click", (Event) => {
