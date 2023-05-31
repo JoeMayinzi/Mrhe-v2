@@ -22,7 +22,7 @@ body {
 
 .activeLink {
   color: #1c4294 !important;
-  font-weight: 700 !important;
+  font-weight: 600 !important;
 }
 
 /* The navigation menu links */
@@ -72,13 +72,15 @@ body {
   border-bottom-color: var(--blue);
 }
 
-.sidebar-body .social-media ul {
+.sidebar-body .social-links li a {
+  background-color: #1c4294 !important;
+  margin-right: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
   display: flex;
-  margin-left: 15px;
-}
-
-.sidebar-body .social-media ul li a {
-  margin-right: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-btn {
@@ -218,7 +220,7 @@ nav ul .nav-link {
 
 nav ul .nav-link:hover {
   color: #1c4294 !important;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 nav ul .nav-link:focus {
