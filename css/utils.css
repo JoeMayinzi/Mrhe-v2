@@ -17,16 +17,6 @@
   background: var(--blue) !important;
 }
 
-.projects-head_nav li a.active {
-  background: var(--blue) !important;
-  color: rgba(255, 255, 255, 1) !important;
-}
-
-.projets-pagination li a.active {
-  background: var(--blue) !important;
-  color: rgba(255, 255, 255, 1) !important;
-}
-
 .detail-hero {
   margin-top: 5em !important;
   background-color: var(--detail-hero-bgc);

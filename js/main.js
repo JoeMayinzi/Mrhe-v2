@@ -3,8 +3,24 @@ const contactButton = document.getElementById("contactButton");
 const newsletterForm = document.querySelectorAll(".news-letter-form");
 const navLink = document.querySelectorAll(".nav-link");
 const path = window.location.href;
+const tabs = document.querySelectorAll(".tabs button");
+const tabscontent = document.querySelectorAll(".tabs-content .container");
 
-console.log(path);
+tabs.forEach((tab, index) => {
+  tab.addEventListener("click", () => {
+    tabscontent.forEach((content) => {
+      content.classList.remove("activeTabs");
+    });
+
+    tabs.forEach((tab) => {
+      tab.classList.remove("activeTabs");
+    });
+
+    tabscontent[index].classList.add("activeTabs");
+    tabs[index].classList.add("activeTabs");
+  });
+});
+
 navLink.forEach((currentLink) => {
   if (currentLink.href === path) {
     currentLink.classList.add("activeLink");

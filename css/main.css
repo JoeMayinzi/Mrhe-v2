@@ -950,28 +950,6 @@ footer .news-letter p {
   margin-bottom: 37px !important;
 }
 
-.projects-head_nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.projects-head_nav-active {
-  color: #fff !important;
-}
-
-.projects-head_nav li a {
-  padding: 12px 18px 12px 18px !important;
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--blue) !important;
-  border-radius: 5px;
-}
-
-.projects-head_nav li {
-  margin-right: 48px;
-}
-
 .projects-body-item {
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -1495,6 +1473,44 @@ dialog form article span {
   position: absolute;
   top: 15px;
   right: 25px;
+}
+
+.projects-head_nav {
+  display: flex;
+  justify-content: center;
+  gap: 43px;
+}
+
+.projects-head_nav button {
+  width: 90px;
+  height: 53px;
+  border-radius: 5px;
+  background: white;
+  color: #1c4294;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+}
+
+.projects-head_nav button:focus {
+  box-shadow: none !important;
+}
+
+.tabs-content .container {
+  display: none;
+}
+
+.tabs-content .activeTabs {
+  display: block;
+}
+
+.tabs .activeTabs {
+  color: white;
+  background: #1c4294;
 }
 
 /* Responsive Design mobile first approach  */
