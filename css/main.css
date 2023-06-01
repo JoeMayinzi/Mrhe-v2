@@ -984,6 +984,7 @@ footer .news-letter p {
 .projets-pagination {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .projets-pagination li a {

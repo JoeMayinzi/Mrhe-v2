@@ -13,8 +13,9 @@
   text-decoration: none;
 }
 
-.pagination-active {
+.projects-body .projets-pagination .active {
   background: var(--blue) !important;
+  color: white !important;
 }
 
 .detail-hero {
