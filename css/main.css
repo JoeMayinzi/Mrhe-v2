@@ -370,6 +370,10 @@ nav ul .nav-link:focus {
   justify-content: space-between;
 }
 
+.news-body_right .news-body_right-items .news-body_right-items-text {
+  padding-right: 15px;
+}
+
 .news-body_right .news-body_right-items .news-body_right-items-text h3 {
   color: var(--black);
   font-size: 24px;
@@ -471,8 +475,9 @@ nav ul .nav-link:focus {
 }
 
 .admin-left_hierarchy-more a {
-  /*padding: 5px 10px;*/
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 34px !important;
   height: 34px !important;
   border-radius: 100%;
@@ -1267,10 +1272,11 @@ footer .news-letter p {
   width: 391px;
   height: fit-content;
   border: 1px solid var(--tb-content-header);
+  border-radius: 11px;
 }
 
 .table-of-content_header {
-  background-color: var(--tb-content-header);
+  border-bottom: 1px solid var(--tb-content-header);
   padding-top: 26px;
   padding-left: 34px;
   padding-bottom: 26px;
