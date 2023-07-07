@@ -5,9 +5,6 @@
 */
 
 @media (min-width: 577px) and (max-width: 810px) {
-  .admin-left_hierarchy-more a svg {
-    margin-top: 5px;
-  }
 }
 @media (min-width: 100px) and (max-width: 576px) {
   header .website-logo {
@@ -36,10 +33,6 @@
 
   .detail-hero_content p {
     font-size: 16px !important;
-  }
-
-  .admin-left_hierarchy-more a svg {
-    margin-top: 7px;
   }
 
   .ministry p {
@@ -507,7 +500,7 @@
   }
 }
 
-/*
+/*git s
   tablette
 */
 
