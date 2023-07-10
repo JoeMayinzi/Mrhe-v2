@@ -529,10 +529,9 @@
 }
 
 @media (min-width: 100px) and (max-width: 1199px) {
-  nav .nav-link {
+  nav .nav-item {
     display: none;
   }
-
   nav .search {
     display: none;
   }
