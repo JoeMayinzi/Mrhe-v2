@@ -200,8 +200,8 @@ header {
 }
 
 header .website-logo {
-  width: 100%;
-  height: 60px;
+  max-width: 100%;
+  min-height: 100%;
 }
 
 .header-border-bottom {
@@ -336,7 +336,6 @@ nav ul .nav-link:focus {
 
 .news-header_right a:hover {
   background-color: var(--blue);
-
   border-radius: 5px;
   color: #fff !important;
 }
