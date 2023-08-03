@@ -7,9 +7,6 @@
 @media (min-width: 577px) and (max-width: 810px) {
 }
 @media (min-width: 100px) and (max-width: 576px) {
-  header .website-logo {
-    height: auto !important;
-  }
   .ministry .ministry-header h3 {
     font-size: 35px !important;
   }
